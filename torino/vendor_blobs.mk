@@ -33,6 +33,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/torino/proprietary/lib/hw/lights.bcm21553.so:system/lib/hw/lights.bcm21553.so \
     vendor/samsung/torino/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/samsung/torino/proprietary/lib/hw/sensors.goldfish.so:system/lib/hw/sensors.goldfish.so \
+	vendor/samsung/torino/proprietary/lib/hw/gps.bcm21553.so:system/lib/hw/gps.bcm21553.so \
 #    vendor/samsung/torino/proprietary/lib/hw/acoustics.default.so:system/lib/hw/acoustics.default.so \
 #    vendor/samsung/torino/proprietary/lib/libaccsensorcal.so:system/lib/libaccsensorcal.so \
 #    vendor/samsung/torino/proprietary/lib/libaccsensorcaltest.so:system/lib/libaccsensorcaltest.so \
@@ -65,6 +66,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/torino/proprietary/media/Disconnected.qmg:system/media/Disconnected.qmg \
     vendor/samsung/torino/proprietary/media/TemperatureError.qmg:system/media/TemperatureError.qmg \
     vendor/samsung/torino/proprietary/bin/charging_mode:system/bin/charging_mode \
+	vendor/samsung/torino/proprietary/bin/glgps:system/bin/glgps \
+	vendor/samsung/torino/proprietary/bin/gps.cer:system/bin/gps.cer \
     vendor/samsung/torino/proprietary/bin/playlpm:system/bin/playlpm \
+	vendor/samsung/torino/proprietary/etc/calib.dat:system/etc/calib.dat \
+	vendor/samsung/torino/proprietary/etc/sensors.dat:system/etc/sensors.dat \
+	vendor/samsung/torino/proprietary/etc/gps/glconfig.xml:system/etc/gps/glconfig.xml \
+	vendor/samsung/torino/proprietary/etc/gps/glconfig2075.xml:system/etc/gps/glconfig2075.xml \
+	vendor/samsung/torino/proprietary/etc/gps/glconfig4751.xml:system/etc/gps/glconfig4751.xml \
+	vendor/samsung/torino/proprietary/etc/gps/glconfig47511.xml:system/etc/gps/glconfig47511.xml \
+	vendor/samsung/torino/proprietary/framework/com.android.future.usb.accessory.jar:system/framework/com.android.future.usb.accessory.jar \
     vendor/samsung/torino/proprietary/lib/libqmage_bluesea.so:system/lib/libqmage_bluesea.so \
     vendor/samsung/torino/proprietary/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so
