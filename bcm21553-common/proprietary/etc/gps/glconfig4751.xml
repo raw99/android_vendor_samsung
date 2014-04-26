@@ -19,7 +19,6 @@
      lcsApiSockName="/data/lcs.socket"
      cpApiSockName="/data/rilgps.socket"
 	gpioNStdbyPath="/sys/class/gpio/gpio56"
-	gpioNResetPath="/sys/class/gpio/gpio23"
   />
 
   <!-- Parameters passed to GlEngine   -->
