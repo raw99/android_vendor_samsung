@@ -75,6 +75,5 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/torino/proprietary/etc/gps/glconfig2075.xml:system/etc/gps/glconfig2075.xml \
 	vendor/samsung/torino/proprietary/etc/gps/glconfig4751.xml:system/etc/gps/glconfig4751.xml \
 	vendor/samsung/torino/proprietary/etc/gps/glconfig47511.xml:system/etc/gps/glconfig47511.xml \
-	vendor/samsung/torino/proprietary/framework/com.android.future.usb.accessory.jar:system/framework/com.android.future.usb.accessory.jar \
     vendor/samsung/torino/proprietary/lib/libqmage_bluesea.so:system/lib/libqmage_bluesea.so \
     vendor/samsung/torino/proprietary/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so
